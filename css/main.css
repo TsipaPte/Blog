@@ -1,0 +1,57 @@
+body{
+    font-family: 'Yu Gothic UI Light';
+}
+.mainheader{
+    background-image: linear-gradient(to left, #882392, #4d56b7, #0074c0, #0089b5, #2f99a3);
+    padding: 70px;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+.mainheader input{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    width: 600px;
+    margin-top: 5px;
+}
+.mainheader input:focus{
+    outline: 0;
+}
+.searchbtn{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.submit{
+    background-color: darkolivegreen;
+    margin-left: 5px;
+}
+.reset{
+    background-color: darkred;
+}
+.about, .resent{
+    text-align: center;
+    justify-content: center;
+}
+.about p{
+    font-size: 20px;
+}
+.resent button{
+    background-color: darkgoldenrod;
+    padding: 15px;
+    width: 300px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+hr{
+    width: 600px;
+}
